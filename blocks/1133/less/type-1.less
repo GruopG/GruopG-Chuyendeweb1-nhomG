@@ -1,0 +1,32 @@
+
+.type-1 { 
+    @color:red;
+    @font-family: sans-serif;
+    @color2: #758991;
+    @font-size:16px;
+
+    .color{
+        color: @color;
+    }
+    .gioithieu{
+        margin: 20px;
+    }
+
+    #title{
+        font-family:@font-family;
+        color: @color;
+    }
+    p{
+        font-size: @font-size;
+        font-family: @font-family;
+
+    }
+    h3.section-big {
+        color: @color2;
+        border-bottom: 1px solid @color2;
+        font-size: 24px;
+        padding-top: 15px;
+        margin-bottom: 35px;
+        color: @color;
+    }
+}

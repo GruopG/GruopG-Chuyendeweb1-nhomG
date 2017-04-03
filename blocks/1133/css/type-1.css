@@ -1,0 +1,22 @@
+.type-1 .color {
+  color: red;
+}
+.type-1 .gioithieu {
+  margin: 20px;
+}
+.type-1 #title {
+  font-family: sans-serif;
+  color: red;
+}
+.type-1 p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.type-1 h3.section-big {
+  color: #758991;
+  border-bottom: 1px solid #758991;
+  font-size: 24px;
+  padding-top: 15px;
+  margin-bottom: 35px;
+  color: red;
+}
