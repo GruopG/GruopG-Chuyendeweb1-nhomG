@@ -1,0 +1,114 @@
+.type-g-5 .carousel-control {
+  padding-top: 10%;
+  width: 1%;
+}
+.type-g-5 .slide-control-prev {
+  position: absolute;
+  text-align: center;
+  width: 26px;
+  height: 35px;
+  background: #5cb85c;
+  line-height: 33px;
+  color: #fff;
+  cursor: pointer;
+  top: 135px;
+  left: 12px;
+  font-size: 30px;
+}
+.type-g-5 .slide-control-next {
+  position: absolute;
+  text-align: center;
+  width: 26px;
+  height: 35px;
+  background: #5cb85c;
+  line-height: 33px;
+  color: #fff;
+  cursor: pointer;
+  right: 12px;
+  top: 135px;
+  font-size: 30px;
+}
+.type-g-5 .Text-New {
+  color: #758991;
+  border-bottom: 1px solid #758991;
+  font-size: 24px;
+  padding-top: 15px;
+  margin-bottom: 35px;
+}
+.type-g-5 .text-content h4 a {
+  color: #758991;
+}
+.type-g-5 .zoom:hover {
+  transform: scale(1.6);
+}
+.type-g-5 .panel {
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+}
+.type-g-5 .panel .panel-body {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+  height: auto;
+}
+.type-g-5 .panel .panel-body a img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 283px;
+  transition: all 0.5s;
+}
+.type-g-5 a.zoom:hover img {
+  transform: scale(1.6);
+}
+.type-g-5 .carousel-control {
+  widows: 4%;
+}
+@media (max-width: 767px) {
+  .type-g-5 .carousel-inner .active.left {
+    left: -100%;
+  }
+  .type-g-5 .carousel-inner .next {
+    left: 100%;
+  }
+  .type-g-5 .carousel-inner .prev {
+    left: -100%;
+  }
+  .type-g-5 .active > div {
+    display: none;
+  }
+  .type-g-5 .active > div:first-child {
+    display: block;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .type-g-5 .carousel-inner .active.left {
+    left: -50%;
+  }
+  .type-g-5 .carousel-inner .next {
+    left: 50%;
+  }
+  .type-g-5 .carousel-inner .prev {
+    left: -50%;
+  }
+  .type-g-5 .active > div {
+    display: none;
+  }
+  .type-g-5 .active > div:first-child {
+    display: block;
+  }
+  .type-g-5 .active > div:first-child + div {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .type-g-5 .carousel-inner .active.left {
+    left: -16.7%;
+  }
+  .type-g-5 .carousel-inner .next {
+    left: 16.7%;
+  }
+  .type-g-5 .carousel-inner .prev {
+    left: -16.7%;
+  }
+}
