@@ -1,0 +1,30 @@
+#maincontainer .heading1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E7E7E7;
+  margin-top: 0px;
+  font-size: 34px;
+}
+#maincontainer .heading1 .maintext {
+  font-size: 28px;
+  color: #5e626b;
+  text-transform: uppercase;
+  padding: 0px 14px 4px 0;
+  font-family: 'Crete Round', serif;
+}
+#maincontainer .heading1 .subtext {
+  font-size: 16px;
+  color: #96979d;
+  text-transform: none;
+  font-weight: normal;
+  padding: 0px;
+}
+#maincontainer input.search-query,
+#maincontainer .btn,
+#maincontainer .label,
+#maincontainer .badge,
+#maincontainer .nav-pills > li > a {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-top: 10px;
+}
