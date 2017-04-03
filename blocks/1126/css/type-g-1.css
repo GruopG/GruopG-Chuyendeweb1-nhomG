@@ -1,0 +1,22 @@
+.mod-danhsach {
+  background: #ffffff;
+  font-size: 24px;
+}
+.mod-danhsach:hover {
+  background: #ffccff;
+}
+.text-center {
+  text-align: center;
+}
+.left {
+  font-family: inherit;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+  margin-bottom: 35px;
+  color: #758991;
+}
+.left p1 {
+  border-bottom: 2px solid #758991;
+  text-align: center;
+}
