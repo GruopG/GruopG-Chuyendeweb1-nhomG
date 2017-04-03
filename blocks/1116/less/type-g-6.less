@@ -1,0 +1,182 @@
+/*
+==================================================================================================================================================================================
+															BEGIN MAIN 3
+==================================================================================================================================================================================
+*/
+.type-g-6{
+	@color-nav-tab: #DDD;
+	@color-nav-tab-a: blue;
+	@background-nav: #ffffff;
+	.nav-tabs { 
+		border-bottom: 2px solid @color-nav-tab;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { 
+		border-width: 0;
+	}
+	.nav-tabs > li > a {  
+		border: none;   
+		color: @color-nav-tab-a; 
+		background: @background-nav;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li > a:hover {  
+		border: none;  
+		color: @background-nav !important;
+		background: @color-nav-tab-a;
+	} 
+	.nav-tabs > li > a::after {
+		content: "";
+		background: @background-nav;
+		height: 2px;
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		bottom: -1px;
+		transition: all 250ms ease 0s;
+		transform: scale(0);
+	} 
+	.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+		transform: scale(1);
+	}
+	.tab-nav > li > a::after {
+		background: @background-nav none repeat scroll 0% 0%;
+		color: @color-nav-tab-a;
+	}
+	.nav-tabs > li { 
+		width:20%;  
+		text-align:center;
+	}
+	 
+	@media all and (max-width:724px) {
+		.nav-tabs > li > a > span {
+			display:none;
+		}
+		.nav-tabs > li > a {
+			padding: 5px 5px;
+		}
+	}
+
+	@border-bottom: #758991;
+	@background-control-prev-next: #5cb85c;
+	@color-control-prev-next: #fff;
+	.carousel-control {
+		padding-top:10%;
+	  	width:1%;
+	}
+	.slide-control-prev{
+	  	position: absolute;
+	    text-align: center;
+	    width: 26px;
+	    height: 35px;
+	    background: @background-control-prev-next;
+	    line-height: 33px;
+	    color: @color-control-prev-next;
+	    cursor: pointer;
+	    top: 135px;
+	    left: 12px;
+	    font-size: 30px;
+	}
+	.slide-control-next{
+	  	position: absolute;
+	    text-align: center;
+	    width: 26px;
+	    height: 35px;
+	    background: @background-control-prev-next;
+	    line-height: 33px;
+	    color: @color-control-prev-next;
+	    cursor: pointer;
+	    right: 12px;
+	    top: 135px;
+	    font-size: 30px;
+	}
+	.Text-New2{
+	  	color: @border-bottom;
+	}
+	.text-content h4 a{
+		color: @border-bottom;
+	}
+	.zoom:hover{
+	  	transform: scale(1.6);
+	}
+	.panel {
+	  margin-bottom: 0px;
+	  border: 0px solid transparent;
+	  	.panel-body {
+			position: relative;
+		  	padding: 0 !important;
+		  	overflow: hidden;
+		  	height: auto;
+		  	a img {
+	  			display: block;
+	  			margin: 0;
+	  			width: 100%;
+	  			height: 283px;
+	  			transition: all 0.5s;
+			}
+		}
+	}
+	a.zoom:hover img {
+	  transform: scale(1.6);
+	}
+	.carousel-control { 
+		widows: 4%; 
+	}
+	@media (max-width: 767px) {
+		.carousel-inner{
+			.active.left {
+				left: -100%;
+			}
+			.next {
+				left:  100%; 
+			}
+			.prev { 
+				left: -100%; 
+			}
+		}
+	  	.active > div {
+	  		display:none;
+	  	}
+	  	.active > div:first-child {
+	  		display:block; 
+	  	}
+	}
+	@media (min-width: 767px) and (max-width: 992px ) {
+		.carousel-inner{
+			.active.left {
+				left: -50%;
+			}
+			.next {
+				left:  50%; 
+			}
+			.prev { 
+				left: -50%; 
+			}
+		}
+	  	.active > div { 
+	  		display:none;
+	  	}
+	  	.active > div:first-child {
+	  		display:block; 
+	  	}
+	  	.active > div:first-child + div { 
+	  		display:block; 
+	  	}
+	}
+	@media (min-width: 992px ) {
+		.carousel-inner{
+			.active.left {
+				left: -16.7%;
+			}
+			.next {
+				left:  16.7%; 
+			}
+			.prev { 
+				left: -16.7%; 
+			}
+		}
+	}
+}
+/*
+==================================================================================================================================================================================
+															END MAIN 3
+==================================================================================================================================================================================
+*/
