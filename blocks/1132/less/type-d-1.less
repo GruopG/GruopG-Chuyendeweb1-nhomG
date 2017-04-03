@@ -1,0 +1,102 @@
+@color-border: #E7E7E7;
+@color-red: #F25C27;
+.rounded-corners (@margin_bottom: 20px) {
+  margin-bottom: @margin_bottom;
+}
+
+
+.type-g-7 {
+    .heading1 {
+    .rounded-corners (40px);
+    border-bottom: 1px solid @color-border;
+    margin-top: 0px;
+    font-size: 34px;
+}
+.heading1 {
+
+	.maintext {
+    font-size: 28px;
+    color: #5e626b;
+    text-transform: uppercase;
+    padding: 0px 14px 4px 0;
+    font-family: 'Crete Round', serif;
+}
+    .subtext {
+        font-size: 16px;
+        color: #96979d;
+        text-transform: none;
+        font-weight: normal;
+        padding: 0px;
+    }
+}
+    .cart-info {
+    	table {
+        width: 100%;
+        .rounded-corners;
+        border-collapse: collapse;
+        border-top: 1px solid @color-border;
+        border-left: 1px solid @color-border;
+        border-right: 1px solid @color-border;
+        background-color: #fff;
+    }
+    table tr {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+    tbody .remove, .cart-info tbody .image {
+        text-align: center;
+    }
+     th {
+        font-weight: bold;
+        background-color: #eeeeee;
+        border-bottom: 1px solid color-border;
+        padding: 10px;
+    }
+ 
+    td, .cart-info th {
+        padding: 15px;
+    }
+
+    tbody .name, .cart-info tbody .model {
+        text-align: left;
+    }
+     th.quantity, .cart-info td.quantity {
+        text-align: left;
+    }
+     th .price, .cart-info th .total, .cart-info tbody .price, .cart-info tbody .total {
+        text-align: right;
+    }
+}
+
+.pull-right{
+	margin-right:8px;
+}
+table th {
+    color: #333;
+}
+.btn-orange {
+    color: #ffffff;
+    text-shadow: none;
+    background:@color-red;
+    box-shadow: none;
+}
+btn {
+    padding: 6px 12px;
+}
+ input.search-query, .btn, .label, .badge, .nav-pills > li > a {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: 15px;
+    margin-right:0px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+ .totalamout {
+    font-size: 22px;
+    color: @color-red;
+}
+
+}

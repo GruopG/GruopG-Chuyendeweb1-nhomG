@@ -1,0 +1,95 @@
+.type-g-7 .heading1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E7E7E7;
+  margin-top: 0px;
+  font-size: 34px;
+}
+.type-g-7 .heading1 .maintext {
+  font-size: 28px;
+  color: #5e626b;
+  text-transform: uppercase;
+  padding: 0px 14px 4px 0;
+  font-family: 'Crete Round', serif;
+}
+.type-g-7 .heading1 .subtext {
+  font-size: 16px;
+  color: #96979d;
+  text-transform: none;
+  font-weight: normal;
+  padding: 0px;
+}
+.type-g-7 .cart-info table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-top: 1px solid #E7E7E7;
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+  background-color: #fff;
+}
+.type-g-7 .cart-info table tr {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.type-g-7 .cart-info tbody .remove,
+.type-g-7 .cart-info .cart-info tbody .image {
+  text-align: center;
+}
+.type-g-7 .cart-info th {
+  font-weight: bold;
+  background-color: #eeeeee;
+  border-bottom: 1px solid color-border;
+  padding: 10px;
+}
+.type-g-7 .cart-info td,
+.type-g-7 .cart-info .cart-info th {
+  padding: 15px;
+}
+.type-g-7 .cart-info tbody .name,
+.type-g-7 .cart-info .cart-info tbody .model {
+  text-align: left;
+}
+.type-g-7 .cart-info th.quantity,
+.type-g-7 .cart-info .cart-info td.quantity {
+  text-align: left;
+}
+.type-g-7 .cart-info th .price,
+.type-g-7 .cart-info .cart-info th .total,
+.type-g-7 .cart-info .cart-info tbody .price,
+.type-g-7 .cart-info .cart-info tbody .total {
+  text-align: right;
+}
+.type-g-7 .pull-right {
+  margin-right: 8px;
+}
+.type-g-7 table th {
+  color: #333;
+}
+.type-g-7 .btn-orange {
+  color: #ffffff;
+  text-shadow: none;
+  background: #F25C27;
+  box-shadow: none;
+}
+.type-g-7 btn {
+  padding: 6px 12px;
+}
+.type-g-7 input.search-query,
+.type-g-7 .btn,
+.type-g-7 .label,
+.type-g-7 .badge,
+.type-g-7 .nav-pills > li > a {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.type-g-7 .mr10 {
+  margin-right: 10px;
+}
+.type-g-7 .totalamout {
+  font-size: 22px;
+  color: #F25C27;
+}
