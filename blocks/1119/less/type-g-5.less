@@ -1,0 +1,86 @@
+/*
+	==================================================================================================================
+												BEGIN MAIN 3
+	==================================================================================================================
+*/
+.type-g-5{
+	@color-border: #E1E1E1;
+	@background-item: #FFF;
+	@color-price-text: #219FD1;
+	.col-item {
+	  	border: 1px solid @color-border;
+	  	border-radius: 5px;
+	  	background: @background-item;
+	  	.photo img {
+		  	margin: 0 auto;
+		  	width: 100%;
+		}
+		.info {
+		  	padding: 10px;
+		  	border-radius: 0 0 5px 5px;
+		  	margin-top: 1px;
+		}
+		.separator {
+		  	border-top: 1px solid @color-border;
+		  	p {
+			  	line-height: 20px;
+			  	margin-bottom: 0;
+			  	margin-top: 10px;
+			  	text-align: center;
+			}
+		}
+		.btn-add {
+		  	width: 50%;
+		  	float: left;
+		  	border-right: 1px solid @color-border;
+		}
+		.btn-details {
+		  	width: 50%;
+		  	float: left;
+		  	padding-left: 10px;
+		}
+	}
+	.price-text-color {
+	  	color: @color-price-text;
+	}
+	.clear-left {
+	  	clear: left;
+	}
+	.col-item .separator p i {
+	  	margin-right: 5px;
+	}
+	.controls {
+	  	margin-top: 20px;
+	}
+	[data-slide="prev"] {
+	  	margin-right: 10px;
+	}
+	.panel {
+	  	margin-bottom: 0px;
+	  	border: 0px solid transparent;
+	  	.panel-body {
+		  	position: relative;
+		  	padding: 0 !important;
+		  	overflow: hidden;
+		  	height: auto;
+		  	a img {
+			  	display: block;
+			  	margin: 0;
+			  	width: 100%;
+			  	height: 283px;
+			  	transition: all 0.5s;
+			}
+		}
+	}
+	.panel .panel-body a.zoom:hover img {
+	  	transform: scale(1.6);
+	}
+	.clear {
+	  	clear: both;
+	}
+}
+/*
+	==================================================================================================================
+												END MAIN 3
+	==================================================================================================================
+*/
