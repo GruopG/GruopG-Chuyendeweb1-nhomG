@@ -1,0 +1,29 @@
+.type-g-2 .footer {
+  background: #525252;
+}
+.type-g-2 .footer h3 {
+  color: #fff;
+}
+.type-g-2 .footer ul li {
+  color: #fff;
+}
+.type-g-2 .footer p {
+  color: #fff;
+}
+.type-g-2 .menu-button {
+  border: 1px #fff solid;
+  text-align: center;
+}
+.type-g-2 .menu-button:hover {
+  background: blue;
+}
+.type-g-2 .item {
+  height: 300px;
+}
+.type-g-2 .imge {
+  width: 190px;
+  padding-left: 35px;
+}
+.type-g-2 .fotter-bot {
+  text-align: center;
+}
