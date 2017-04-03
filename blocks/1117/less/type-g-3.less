@@ -1,0 +1,284 @@
+/*
+	==================================================================================================================
+												BEGIN MAIN 1
+	==================================================================================================================
+*/
+.type-g-3{
+	@color-product-title: #525252;
+	@color-product-price: #758991;
+	@color-product-desc: #000000;
+	@color-product-stock: #77a464;
+	@background-img: #FFFFFF;
+	@color-border: #ccc;
+	@background-icon1: #F56505;
+	@background-icon2: #3B5998;
+	@background-icon3: #33ccff;
+	@background-icon4: #BD3518;
+	@color-hover-class: #44BCDD;
+	.selected li {
+		text-align: center;
+	}
+	.product-title {
+	  	color: @color-product-title;
+	  	font-size: 24px;
+	}
+	.product-price {
+	  	margin-top: 15px;
+	  	font-size: 24px;
+	  	font-weight: 700;
+	  	color: @color-product-price;
+	}
+	.product-desc {
+	  	margin-top: 15px;
+	  	color: @color-product-desc;
+	}
+	.wishlist {
+	  	margin-top: 20px;
+	}
+	.variations {
+	  	margin-top: 20px;
+	}
+	.product-stock {
+	  	color: #77a464;
+	  	margin-top: 20px;
+	  	font-size: 16px;
+	}
+	.spin {
+	  	width: 115px;
+	  	margin-top: 20px;
+	  	float: left;
+	}
+	.btn-group {
+	  	margin-top: 20px;
+	  	margin-left: 20px;
+	}
+	.article-slide {
+		.carousel-indicators {
+	  		bottom: 0;
+	  		left: 0;
+	  		margin-left: 0px;
+	  		li {
+	  			border: medium none;
+	  			border-radius: 0;
+	  			float: left;
+	  			height: 99px;
+	  			margin-bottom: 5px;
+	  			margin-left: 0;
+	  			margin-right: 5px !important;
+	  			margin-top: 0;
+	  			width: 99px;
+			}
+			img {
+	  			border: 2px solid @background-img;
+	  			float: left;
+	  			height: 99px;
+	  			left: 0;
+	  			width: 99px;
+			}
+		}
+	}
+	.article-slide .carousel-indicators .active img {
+	  	border: 1px solid @color-product-desc;
+	  	opacity: 0.7;
+	}
+	.btn-select {
+	  	position: relative;
+	  	padding: 0;
+	  	min-width: 236px;
+	  	width: 20%;
+	  	border-radius: 0;
+	  	margin-bottom: 20px;
+	  	margin-left: 30px;
+	  	.btn-select-value {
+			padding: 6px 12px;
+		  	display: block;
+		  	position: absolute;
+		  	left: 0;
+		  	right: 34px;
+		  	text-align: left;
+		  	text-overflow: ellipsis;
+		  	overflow: hidden;
+		  	border-top: none !important;
+		  	border-bottom: none !important;
+		  	border-left: none !important;
+		}
+		.btn-select-arrow {
+		  	float: right;
+		  	line-height: 20px;
+		  	padding: 6px 10px;
+		  	top: 0;
+		}
+		ul {
+		  	display: none;
+		  	background-color: @background-img;
+		  	color: @color-product-desc;
+		  	clear: both;
+		  	list-style: none;
+		  	padding: 0;
+		  	margin: 0;
+		  	border-top: none !important;
+		  	position: absolute;
+		  	left: -1px;
+		  	right: -1px;
+		  	top: 33px;
+		  	z-index: 999;
+		}
+	}
+	.btn-select ul li {
+	  	padding: 3px 6px;
+	  	text-align: left;
+	}
+	.btn-select ul li:hover {
+	  	background-color: @background-img;
+	}
+	.btn-select ul li.selected {
+	  	color: @background-img;
+	}
+	.btn-select.btn-default:hover,
+	.btn-select.btn-default:active,
+	.btn-select.btn-default.active {
+	  	border-color: @color-border;
+	}
+	.btn-select.btn-default ul li.selected {
+	  	background-color: @color-border;
+	}
+	.btn-select.btn-default ul,
+	.btn-select.btn-default .btn-select-value {
+	  	background-color: @background-img;
+	  	border: @color-border 1px solid;
+	}
+	.btn-select.btn-default:hover,
+	.btn-select.btn-default.active {
+	  	background-color: @background-img;
+	}
+	ul.social-network {
+	  	list-style: none;
+	  	display: inline;
+	  	margin-left: 0 !important;
+	  	padding: 0;
+	  	li {
+		  	display: inline;
+		  	margin: 0 5px;
+		}
+	} 
+	.social-network a.icoRss:hover {
+	  	background-color: @background-icon1;
+	}
+	.social-network a.icoFacebook:hover {
+	  	background-color: @background-icon2;
+	}
+	.social-network a.icoTwitter:hover {
+	  	background-color: @background-icon3;
+	}
+	.social-network a.icoGoogle:hover {
+	  	background-color: @background-icon4;
+	}
+	.social-network a.icoRss:hover i,
+	.social-network a.icoFacebook:hover i,
+	.social-network a.icoTwitter:hover i,
+	.social-network a.icoGoogle:hover i,
+	.social-network a.icoVimeo:hover i {
+	  	color: @background-img;
+	}
+	a.socialIcon:hover,
+	.socialHoverClass {
+	  	color: @color-hover-class;
+	}
+	.social-circle li a {
+	  	display: inline-block;
+	  	position: relative;
+	  	margin: 0 auto 0 auto;
+	  	border-radius: 50%;
+	  	text-align: center;
+	  	width: 50px;
+	  	height: 50px;
+	  	font-size: 20px;
+	  	background: @color-product-title;
+	}
+	.social-circle li i {
+	  	margin: 0;
+	  	line-height: 50px;
+	 	text-align: center;
+	}
+	.social-circle li a:hover i,
+	.triggeredHover {
+	  	transform: rotate(360deg);
+	  	transition: all 0.2s;
+	}
+	.social-circle i {
+	  	color: @background-img;
+	  	transition: all 0.8s;
+	}
+	.easyzoom--with-thumbnails {
+	  	margin: 0;
+	}
+	.easyzoom {
+	  	position: relative;
+	  	display: inline-block;
+	  	*display: inline;
+	  	*zoom: 1;
+	  	border: 1px solid @color-product-desc;
+	  	width: 450px;
+	  	height: 450px;
+	}
+	.easyzoom img {
+	  	vertical-align: bottom;
+	}
+	.easyzoom.is-loading img {
+	  	cursor: progress;
+	}
+	.easyzoom.is-ready img {
+	  	cursor: crosshair;
+	}
+	.easyzoom.is-error  img {
+	  	cursor: not-allowed;
+	}
+	.easyzoom-notice {
+	  	position: absolute;
+	  	top: 50%;
+	  	left: 50%;
+	  	z-index: 150;
+	  	width: 10em;
+	  	margin: -1em 0 0 -5em;
+	  	line-height: 2em;
+	  	text-align: center;
+	  	background: @background-img;
+	  	box-shadow: 0 0 10px @color-product-title;
+	}
+	.easyzoom-flyout {
+	  	position: absolute;
+	  	z-index: 100;
+	  	overflow: hidden;
+	  	background: @background-img;
+	}
+	.easyzoom--overlay .easyzoom-flyout {
+	  	top: 0;
+	  	left: 0;
+	  	width: 100%;
+	  	height: 100%;
+	}
+	.thumbnails {
+	  	overflow: hidden;
+	  	margin: 1em 0;
+	  	padding: 0;
+	}
+	.thumbnails li {
+	  	display: inline-block;
+	}
+	.thumbnails img {
+	  	display: block;
+	  	min-width: 100px;
+	  	max-width: 100px;
+	}
+	.input-group-addon{
+		display: none;
+	}
+	.add{
+		color: @background-img;
+	}
+}
+/*
+	==================================================================================================================
+												END MAIN 1 
+	==================================================================================================================
+*/
