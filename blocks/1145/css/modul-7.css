@@ -1,0 +1,116 @@
+.modul-7 .sidebar_widget__search {
+  height: 40px;
+  padding: 0 38px 0 0;
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+}
+.modul-7 .sidebar_widget__search input {
+  width: 100%;
+  height: 36px;
+  float: left;
+  padding: 0 0 0 10px;
+  background: none;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  box-shadow: none !important;
+}
+.modul-7 .sidebar_widget__search button {
+  width: 38px;
+  height: 36px;
+  margin: 0 -40px 0 0;
+  color: #131930;
+  background: transparent;
+  padding: 0;
+  border: 0;
+}
+.modul-7 .sidebar_widget__search button i.fa {
+  height: 36px;
+  display: block;
+  font-size: 14px;
+  line-height: 35px;
+}
+.modul-7 .sidebar_widget__search button:hover {
+  color: #4d7df0;
+}
+.modul-7 .sidebar_widget ~ .sidebar_widget {
+  margin: 30px 0 0 0;
+}
+.modul-7 .sidebar_widget {
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+}
+.modul-7 .sidebar_widget .widget_header {
+  margin: 0;
+  padding: 17px 15px;
+  border-bottom: 1px solid #e2eafd;
+  line-height: 1em;
+  font-size: 16px;
+  font: bold 18px Montserrat;
+  color: #4d7df0;
+  text-transform: uppercase;
+}
+.modul-7 .sidebar_widget__articles ul li {
+  padding: 15px;
+}
+.modul-7 .sidebar_widget__articles img {
+  width: 145px;
+  float: left;
+}
+.modul-7 .sidebar_widget__articles .article_content__img {
+  margin: 0 0 0 160px;
+}
+.modul-7 .sidebar_widget__articles .article_title {
+  margin: 5px 0 0 0;
+  text-transform: none;
+}
+.modul-7 ol,
+.modul-7 ul {
+  list-style: none;
+  margin-top: 0;
+  margin-left: -40px;
+  margin-bottom: 10px;
+}
+.modul-7 .article_date {
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.modul-7 h3,
+.modul-7 h4 {
+  font-size: 16px;
+  font: bold 18px Montserrat;
+  color: #4d7df0;
+}
+.modul-7 .sidebar_widget__articles .article_title a {
+  font-size: 14px;
+}
+.modul-7 .sidebar_widget__articles .article_comments {
+  margin: 5px 0 0 0;
+}
+.modul-7 .sidebar_widget__articles ul li ~ li {
+  border-top: 1px solid #e2eafd;
+}
+.modul-7 .sidebar_widget__articles ul li {
+  padding: 15px;
+}
+.modul-7 .article_title {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.modul-7 .article_title a {
+  color: #131930;
+}
+.modul-7 .article_title a:hover {
+  color: #4d7df0;
+}
+.modul-7 .fa-calendar {
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.modul-7 .fa-comments-o {
+  margin-right: 5px;
+}

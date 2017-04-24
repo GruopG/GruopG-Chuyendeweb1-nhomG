@@ -1,0 +1,139 @@
+.modul-7 { 
+
+    @color_border:#e2eafd;
+    @color_1:#4d7df0;
+    @color_2:#131930;
+
+
+    .sidebar_widget__search{
+        height: 40px;
+        padding: 0 38px 0 0;
+        border: 2px solid @color_border;
+        border-radius: 4px;
+        input {
+            width: 100%;
+            height: 36px;
+            float: left;
+            padding: 0 0 0 10px;
+            background: none;
+            border: none;
+            font-size: 12px;
+            text-transform: uppercase;
+            box-shadow: none !important;
+        }
+        button {
+            width: 38px;
+            height: 36px;
+            margin: 0 -40px 0 0;
+            color: @color_2;
+            background: transparent;
+            padding: 0;
+            border: 0;
+        }
+        button i.fa {
+            height: 36px;
+            display: block;
+            font-size: 14px;
+            line-height: 35px;
+        }
+        button:hover {
+            color: @color_1;
+        }
+    }
+
+    .sidebar_widget ~ .sidebar_widget {
+        margin: 30px 0 0 0;
+    }
+
+    .sidebar_widget{
+        border: 2px solid @color_border;
+        border-radius: 4px;
+        .widget_header {
+            margin: 0;
+            padding: 17px 15px;
+            border-bottom: 1px solid @color_border;
+            line-height: 1em;
+            font-size: 16px;
+            font: bold 18px Montserrat;
+            color: @color_1;
+            text-transform: uppercase;
+        }
+    }
+
+    .sidebar_widget__articles{
+        ul li {
+            padding: 15px;
+        }
+        img {
+            width: 145px;
+            float: left;
+        }
+        .article_content__img {
+            margin: 0 0 0 160px;
+        }
+        .article_title {
+            margin: 5px 0 0 0;
+            text-transform: none;
+        }
+    }
+
+    ol, ul {
+        list-style: none;
+        margin-top: 0;
+        margin-left: -40px;
+        margin-bottom: 10px;
+    }
+
+    .article_date {
+        vertical-align: top;
+        font-size: 12px;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+    h3, h4 {
+        font-size: 16px;
+        font: bold 18px Montserrat;
+        color: @color_1;
+    }
+
+    .sidebar_widget__articles{
+        .article_title a {
+            font-size: 14px;
+        }
+        .article_comments {
+            margin: 5px 0 0 0;
+        }
+        ul li ~ li {
+            border-top: 1px solid @color_border;
+        }
+        ul li {
+            padding: 15px;
+        }
+    }
+
+    .article_title {
+        font-weight: normal;
+        text-transform: uppercase;
+        a {
+
+            color: @color_2;
+        }
+        a:hover {
+            color: @color_1;
+        }
+    }
+
+    .fa-calendar {
+        vertical-align: top;
+        font-size: 12px;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+    .fa-comments-o{
+        margin-right: 5px;
+    }
+
+}
+
