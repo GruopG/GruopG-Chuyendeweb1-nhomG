@@ -1,0 +1,76 @@
+.modul-10 .content_wrapper {
+  padding: 0 15px 15px 15px;
+  background: #ffffff;
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+}
+.modul-10 .product_listing_controls {
+  overflow: hidden;
+  margin: 0 -15px;
+  padding: 0 15px 15px 15px;
+  background: #f5f7fe;
+}
+.modul-10 .product_listing_toggle {
+  float: left;
+  font-size: 0;
+  margin-left: -40px;
+}
+.modul-10 .product_listing_toggle li.active {
+  background: #4d7df0;
+  border-color: #4d7df0;
+  color: #fff;
+  cursor: default;
+}
+.modul-10 .product_listing_toggle li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 15px 15px 0 0;
+  border: 1px solid transparent;
+  color: #7f8496;
+  text-align: center;
+}
+.modul-10 .product_listing_toggle li i {
+  font-size: 18px;
+  line-height: 29px;
+}
+.modul-10 .sort_by {
+  float: right;
+  margin: 15px 0 0 10px;
+}
+.modul-10 .sort_by label {
+  margin: 0 4px 0 0;
+  line-height: 30px;
+}
+.modul-10 .sort_by select {
+  width: auto !important;
+  height: 30px;
+  display: inline-block;
+  padding: 5px 4px;
+  cursor: pointer;
+}
+.modul-10 label {
+  font-size: 13px;
+  color: #131930;
+}
+.modul-10 .product_listing_controls select {
+  background: #fff;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #7f8496;
+}
+.modul-10 .show_products {
+  float: right;
+  margin: 15px 0 0 10px;
+}
+.modul-10 .show_products label {
+  margin: 0 4px 0 0;
+  line-height: 30px;
+}
+.modul-10 .show_products select {
+  width: auto !important;
+  height: 30px;
+  display: inline-block;
+  padding: 5px 4px;
+  cursor: pointer;
+}

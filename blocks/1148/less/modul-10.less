@@ -1,0 +1,95 @@
+.modul-10{ 
+
+    @color_border:#e2eafd;
+    @color_background: #ffffff;
+    @color_1:#4d7df0;
+    @color_black:#fff;
+    @color_2:#131930;
+    @color_3: #7f8496;
+    @color_4:#f5f7fe;
+
+    .content_wrapper {
+        padding: 0 15px 15px 15px;
+        background: @color_background;
+        border: 2px solid @color_border;
+        border-radius: 4px;
+    }
+
+    .product_listing_controls {
+        overflow: hidden;
+        margin: 0 -15px;
+        padding: 0 15px 15px 15px;
+        background: @color_4;
+    }
+
+    .product_listing_toggle{
+        float: left;
+        font-size: 0;
+        margin-left: -40px;
+        li.active {
+            background: @color_1;
+            border-color: @color_1;
+            color: @color_black;
+            cursor: default;
+        }
+        li{
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin: 15px 15px 0 0;
+            border: 1px solid transparent;
+            color: @color_3;
+            text-align: center;
+            i {
+                font-size: 18px;
+                line-height: 29px;
+            }
+        }
+    }
+
+    .sort_by{
+        float: right;
+        margin: 15px 0 0 10px;
+        label {
+            margin: 0 4px 0 0;
+            line-height: 30px;
+        }
+        select {
+            width: auto !important;
+            height: 30px;
+            display: inline-block;
+            padding: 5px 4px;
+            cursor: pointer;
+        }
+    }
+
+    label {
+        font-size: 13px;
+        color: @color_2;
+    }
+
+    .product_listing_controls select {
+        background: #fff;
+        border-radius: 2px;
+        font-size: 13px;
+        color: @color_3;
+    }
+
+    .show_products{
+        float: right;
+        margin: 15px 0 0 10px;
+        label {
+            margin: 0 4px 0 0;
+            line-height: 30px;
+        }
+        select {
+            width: auto !important;
+            height: 30px;
+            display: inline-block;
+            padding: 5px 4px;
+            cursor: pointer;
+        }
+    }
+
+}
+
