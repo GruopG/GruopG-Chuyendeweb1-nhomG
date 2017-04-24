@@ -1,0 +1,309 @@
+.modul-14 { 
+
+    @color_border:#e2eafd;
+    @color_background:#ffffff;
+    @color_1:#4d7df0;
+    @color_2:#131930;
+    @color_3:#f5f7fe;
+    @color_4:#7f8496;
+    @color_5:#f83c7b;
+    @color_black:#fff;
+
+
+    .content_wrapper {
+        padding: 0 15px 15px 15px;
+        background: @color_background;
+        border: 2px solid @color_border;
+        border-radius: 4px;
+    }
+
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .product_collection{ 
+        border: 1px solid @color_border;
+        border-width: 0;
+        border-bottom-width: 1px;
+        .product_wrapper {
+            padding: 15px 0;
+        }
+    }
+
+
+    .product_listing_main{
+        .product_img{
+
+            position: relative;
+            .product_badges {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 100;
+            }
+
+            a {
+                display: block;
+                position: relative;
+            }
+
+            .img {
+                background-color: @color_black;
+                position: relative;
+                z-index: 1;
+                user-select: none;
+            }
+
+            .img__2 {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 10;
+            }
+
+            .product_badges{
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 100;
+
+                span.new {
+                    background: @color_black;
+                    border: 1px solid @color_border;
+                    color: @color_1;
+                    box-shadow: inset 0 0 0 300px @color_3;
+                }
+
+                span {
+                    display: inline-block;
+                    padding: 4px 8px;
+                    font-size: 12px;
+                    line-height: 1em;
+                    border-radius: 3px;
+                }
+
+                span.sale {
+                    margin: 5px 0 0 0;
+                    background: #f83c7b;
+                    border: 1px solid @color_5;
+                    color: @color_black;
+                }
+
+            } 
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .product_actions{
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-right: -9px;
+
+            .actions_btn {
+                width: 22px;
+                height: 22px;
+                display: block;
+                margin: 0 0 7px 0;
+                color: rgba(127,132,150,0.5);
+                text-align: center;
+            }
+
+            .actions_btn i {
+                font-size: 21px;
+                line-height: 21px;
+            }
+        }
+
+        .product_info {
+            text-align: center;
+        }
+
+        .product_vendor {
+            padding: 15px 0 0 0;
+            color: @color_1;
+        }
+
+
+        .product_name{
+            padding: 3px 0 0 0;
+            font-size: 18px;
+            color: @color_2;
+            a:hover {
+                color: @color_1;
+            }
+            a {
+                color: @color_2;
+            }
+        }
+
+        .product_desc {
+            display: none;
+            color: @color_4;
+        }
+
+        .product_price{
+            padding: 3px 0 0 0;
+
+            .money {
+                font-size: 18px;
+
+            }
+
+            .money_sale {
+                margin: 0 0 0 5px;
+                color: @color_4;
+                text-decoration: line-through;
+
+            }
+        }
+
+        .product_links{
+            padding: 15px 0 0 0;
+            .btn {
+                padding: 7px 20px 12px 20px;
+                line-height: 1.7em;
+            }
+            i {
+                vertical-align: baseline;
+                margin: 0 5px 0 0;
+                font-size: 21px;
+                line-height: 1em;
+                position: relative;
+                top: 5px;
+            }
+        }
+    }
+
+
+
+    img {
+        max-width: 100%;
+    }
+
+    .money {
+        color: @color_1;
+    }
+
+    .product_price_with_sale {
+        color: @color_5;
+    }
+
+    .homepage_btn {
+        padding: 10px 15px;
+        font-size: 13px;
+        font: bold 14px Montserrat;
+        background: @color_1 !important;
+        border-color: @color_1 !important;
+        color: @color_black !important;
+        border: 1px solid transparent;
+    }
+
+    .a {
+        color: @color_1;
+        text-decoration: none;
+    }
+
+    .product_collection.item3_1 {
+        clear: left;
+        margin: 0 -1px 0 0;
+        border-right-width: 1px;
+    }
+
+    .product_collection.item3_2 {
+        border-right-width: 1px;
+        border-left-width: 1px;
+    }
+
+    .product_collection.item3_3 {
+        margin: 0 0 0 -1px;
+        border-left-width: 1px;
+    }
+
+    .listing_controls__pagination {
+        margin: 15px 0 0 0;
+    }
+
+    .product_listing_controls {
+        overflow: hidden;
+
+        padding: 0 15px 15px 15px;
+        background: @color_3;
+    }
+
+    .products_count {
+        height: 30px;
+        float: left;
+        margin: 10px 10px 0 0;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 30px;
+        color: @color_2;
+    }
+
+    p {
+        padding: 0;
+    }
+
+
+
+
+    .pagination{
+        display: inline-block;
+        overflow: hidden;
+        float: right;
+        margin: 10px 0 0 10px;
+        font-size: 0;
+        span.current {
+            width: 30px;
+            height: 30px;
+            background: @color_1;
+            border: 1px solid @color_1;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 27px;
+            color: @color_black;
+            text-align: center;
+            cursor: default;
+        }
+        span {
+            display: inline-block;
+            vertical-align: top;
+        }
+        span.page a {
+            width: 30px;
+            padding: 0;
+            text-align: center;
+        }
+        span a {
+            height: 30px;
+            display: block;
+            background: @color_black;
+            border: 1px solid @color_border;
+            font-size: 12px;
+            line-height: 27px;
+            color: Lato;
+
+        }
+        span a:hover {
+            background: @color_1;
+            border-color: @color_1;
+            color: @color_black;
+        }
+
+    }
+
+
+    .btn:hover{
+        background: @color_2 !important;
+        border-color: @color_2 !important;
+    }
+
+
+
+
+}
+
