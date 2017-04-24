@@ -1,0 +1,86 @@
+.modul-13 .sidebar_widget ~ .sidebar_widget {
+  margin: 30px 0 0 0;
+}
+.modul-13 .sidebar_widget {
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+}
+.modul-13 .sidebar_widget .widget_header {
+  margin: 0;
+  padding: 17px 15px;
+  border-bottom: 1px solid #e2eafd;
+  line-height: 1em;
+}
+.modul-13 h3 {
+  font: bold 18px Montserrat;
+  color: #4d7df0;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.modul-13 ol,
+.modul-13 ul {
+  list-style: none;
+  padding: 0;
+}
+.modul-13 .list_products .product {
+  overflow: hidden;
+  padding: 15px;
+}
+.modul-13 .list_products .product_img {
+  width: 100px;
+  float: left;
+}
+.modul-13 .list_products .product_info {
+  margin: 0 0 0 115px;
+}
+.modul-13 .list_products .product_name {
+  font-size: 15px;
+}
+.modul-13 a {
+  color: #4d7df0;
+  text-decoration: none;
+}
+.modul-13 img {
+  max-width: 100%;
+}
+.modul-13 .product_name {
+  color: #131930;
+}
+.modul-13 .product_name a {
+  color: #131930;
+}
+.modul-13 .product_name a:hover {
+  color: #4d7df0;
+}
+.modul-13 .list_products .product_price {
+  padding: 7px 0 0 0;
+}
+.modul-13 .list_products .product_price .money {
+  display: block;
+  font-size: 18px;
+}
+.modul-13 .list_products .product_price .compare-at-price {
+  font-size: 14px;
+}
+.modul-13 .list_products .product_price .money {
+  display: block;
+}
+.modul-13 .list_products .product ~ .product {
+  border-top: 1px solid #e2eafd;
+}
+.modul-13 .list_products .product {
+  overflow: hidden;
+  padding: 15px;
+}
+.modul-13 .list_products .product_img {
+  width: 100px;
+  float: left;
+}
+.modul-13 .money {
+  color: #4d7df0;
+}
+.modul-13 .money_sale,
+.modul-13 .compare-at-price {
+  color: #7f8496;
+  text-decoration: line-through;
+}
