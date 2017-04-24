@@ -1,0 +1,35 @@
+.modul-12 .sidebar_widget ~ .sidebar_widget {
+  margin: 30px 0 0 0;
+}
+.modul-12 .sidebar_widget {
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+}
+.modul-12 .sidebar_widget .widget_header {
+  margin: 0;
+  padding: 17px 15px;
+  border-bottom: 1px solid #e2eafd;
+  line-height: 1em;
+}
+.modul-12 h3 {
+  font-size: 16px;
+  font: bold 18px Montserrat;
+  color: #4d7df0;
+  text-transform: uppercase;
+}
+.modul-12 ol,
+.modul-12 ul {
+  list-style: none;
+  padding: 0px;
+}
+.modul-12 .list_links li ~ li {
+  border-top: 1px solid #e2eafd;
+}
+.modul-12 .list_links li a {
+  display: block;
+  padding: 7px 15px;
+  color: #131930;
+}
+.modul-12 .list_links a:hover {
+  color: #4d7df0;
+}
