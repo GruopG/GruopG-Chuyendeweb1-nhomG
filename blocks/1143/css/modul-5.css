@@ -1,0 +1,45 @@
+.modul-5 .content_wrapper {
+  padding: 0;
+}
+.modul-5 .collection_listing__wrapper {
+  padding: 20px;
+  text-align: center;
+}
+.modul-5 .collection_listing__wrapper .product_name {
+  margin: 15px 0 0 0;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 18px;
+  color: #131930;
+}
+.modul-5 .collection_listing__wrapper .product_name a {
+  color: #131930;
+}
+.modul-5 .collection_listing__wrapper .product_name a:hover {
+  color: #4d7df0;
+}
+.modul-5 .collection_listing_main .row {
+  margin: 0;
+}
+.modul-5 .collection_listing__item {
+  padding: 0;
+  border: 1px solid #e2eafd;
+}
+.modul-5 .page_heading__wrap {
+  padding: 0 0 30px 0;
+}
+.modul-5 .page_heading__wrap .page_heading {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 30px 0 0 0;
+  margin-left: 14px;
+}
+.modul-5 .page_heading {
+  margin: 0;
+  font-size: 18px;
+  margin: 15px 0;
+  font: bold 18px Montserrat;
+  color: #4d7df0;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
