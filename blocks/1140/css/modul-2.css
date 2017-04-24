@@ -1,0 +1,37 @@
+.modul-2 .cell_item1 {
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+.modul-2 .cell_item3 {
+  padding-top: 15px;
+}
+.modul-2 .social_links__header li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.modul-2 .social_links__header i {
+  font-size: 16px;
+}
+.modul-2 a {
+  color: #4d7df0;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .modul-2 .option {
+    float: left;
+    border: none;
+  }
+  .modul-2 .logo {
+    text-align: center;
+  }
+  .modul-2 .cell_item1 {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+  }
+  .modul-2 .cell_item2 {
+    text-align: center;
+  }
+}
