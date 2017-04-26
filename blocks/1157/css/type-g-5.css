@@ -1,0 +1,24 @@
+.type-g-5 .border {
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+  margin: 10px 10px 10px 10px;
+}
+.type-g-5 .border .type {
+  margin: 30px 0 15px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #e2eafd;
+  color: #131930;
+  font: bold 18px Montserrat;
+  text-transform: none;
+}
+.type-g-5 .border .type p {
+  padding: 10px 0px 20px 10px;
+}
+.type-g-5 .border .noidung {
+  margin: 15px 0;
+  padding: 0;
+}
+.type-g-5 .border .noidung p {
+  padding: 10px 0px 0px 10px;
+  color: #7f8496;
+}
