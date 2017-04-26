@@ -1,0 +1,23 @@
+.type-g-10 .boder {
+  border: 2px solid #e2eafd;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.type-g-10 .boder .type {
+  text-transform: none;
+  margin: 30px 0 15px 0;
+  padding: 0 0 5px 0;
+  text-align: center;
+  border-bottom: 1px solid #e2eafd;
+}
+.type-g-10 .boder .type p {
+  color: #131930;
+  font-size: 18px;
+  font: bold 20px Montserrat;
+}
+.type-g-10 .boder .noidung p {
+  color: #7f8496;
+  font: 16px Montserrat;
+}
