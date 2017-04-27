@@ -1,0 +1,14 @@
+.type-g-16 .full {
+  margin: 0;
+}
+.type-g-16 .tag-list li {
+  float: left;
+}
+@media (max-width: 992px) {
+  .type-g-16 .col-md-4 {
+    width: 100%;
+  }
+}
+.type-g-16 .title {
+  color: #fff;
+}
