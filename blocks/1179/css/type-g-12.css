@@ -1,0 +1,12 @@
+.type-g-12 #loginbox {
+  margin-top: 50px;
+}
+.type-g-12 .forgotps {
+  float: right;
+  font-size: 80%;
+  position: relative;
+  top: -10px;
+}
+.type-g-12 .panel-body {
+  padding-top: 30px;
+}
