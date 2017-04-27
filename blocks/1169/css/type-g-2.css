@@ -1,0 +1,64 @@
+.type-g-2 .carousel-inner > .item > img,
+.type-g-2 .carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+.type-g-2 .carousel-indicators li {
+  border: 2px solid #7f8496;
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+}
+.type-g-2 .carousel-indicators li:hover {
+  background: blue;
+}
+.type-g-2 .carousel-indicators .active {
+  background-color: blue;
+}
+.type-g-2 .carousel-caption .title h2 {
+  font-size: 50px;
+  line-height: 1.2em;
+  color: #131930;
+}
+.type-g-2 .carousel-caption .title p {
+  color: #131930;
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+}
+.type-g-2 .carousel-caption {
+  margin-bottom: 25px;
+}
+.type-g-2 .carousel-caption span:hover {
+  background: #7f8496;
+}
+.type-g-2 .b1 {
+  background: #4d7df0 !important;
+}
+.type-g-2 .b1:hover {
+  background: #131930 !important;
+}
+.type-g-2 .slide2 {
+  margin: 0 0 200px -170px;
+  text-align: left;
+}
+.type-g-2 .slide2 .title h2 {
+  color: #fff;
+}
+.type-g-2 .slide2 .title p {
+  color: #fff;
+}
+.type-g-2 .slide3 {
+  margin: 0 0 120px 0;
+  font-size: 50px;
+}
+.type-g-2 .slide3 .title h2 {
+  color: #fff;
+}
+.type-g-2 .slide3 .title p {
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .type-g-2 .carousel-caption {
+    display: none;
+  }
+}

@@ -1,0 +1,81 @@
+/*
+	==================================================================================================================
+												BEGIN BANNER 
+	==================================================================================================================
+*/
+.type-g-2{
+  @background-color-while: #fff;
+  @background-border: #7f8496;
+  @color-title: #131930;
+  @background: blue;
+  @background-b1: #4d7df0;
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+	    width: 100%;
+	    margin: auto;
+	}
+  	.carousel-indicators li{
+  		border: 2px solid @background-border;
+  		background-color: @background-color-while;
+  		width: 12px;
+  		height: 12px;
+  	}
+  	.carousel-indicators li:hover{
+  		background: @background;
+  	}
+  	.carousel-indicators .active{
+  		background-color: @background;
+  	}
+  	.carousel-caption .title h2{
+  		font-size: 50px;
+  		line-height: 1.2em;
+  		color: @color-title;
+  	}
+  	.carousel-caption .title p{
+  		color: @color-title;
+  		margin: 10px 0 20px 0;
+  		font-size: 20px;
+  	}
+  	.carousel-caption{
+  		margin-bottom: 25px;
+  	}
+  	.carousel-caption span:hover{
+  		background: @background-border;
+  	}
+    .b1{
+      background: @background-b1 !important;
+    }
+    .b1:hover{
+      background: @color-title !important;
+    }
+    .slide2{
+      margin: 0 0 200px -170px;
+      text-align: left;
+      .title h2{
+        color: @background-color-while;
+      }
+      .title p{
+        color: @background-color-while;
+      }
+    }
+    .slide3{
+      margin: 0 0 120px 0;
+      font-size: 50px;
+      .title h2{
+        color: @background-color-while;
+      }
+      .title p{
+        color: @background-color-while;
+      }
+    }
+  	@media screen and (max-width: 480px) {
+    	.carousel-caption{
+        	display: none;
+    }
+	}
+}
+/*
+	==================================================================================================================
+												END BANNER 
+	==================================================================================================================
+*/
