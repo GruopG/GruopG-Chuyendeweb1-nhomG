@@ -1,0 +1,18 @@
+.type-g-6 .jumbotron-flat {
+  background-color: solid #4DB8FF;
+  height: 100%;
+  border: 1px solid #4DB8FF;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+.type-g-6 .paymentAmt {
+  font-size: 80px;
+}
+.type-g-6 .centered {
+  text-align: center;
+}
+.type-g-6 .title {
+  padding-top: 15px;
+}
