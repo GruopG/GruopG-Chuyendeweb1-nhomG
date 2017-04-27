@@ -1,0 +1,106 @@
+.type-g-15 .content {
+  padding: 30px 0;
+}
+.type-g-15 .pricing {
+  position: relative;
+  margin-bottom: 15px;
+  border: 3px solid #eee;
+}
+.type-g-15 .pricing-active {
+  border: 3px solid #36d7ac;
+  margin-top: -10px;
+  box-shadow: 7px 7px rgba(54,215,172,0.2);
+}
+.type-g-15 .pricing:hover {
+  border: 3px solid #36d7ac;
+}
+.type-g-15 .pricing:hover h4 {
+  color: #36d7ac;
+}
+.type-g-15 .pricing-head {
+  text-align: center;
+}
+.type-g-15 .pricing-head h3,
+.type-g-15 .pricing-head h4 {
+  margin: 0;
+  line-height: normal;
+}
+.type-g-15 .pricing-head h3 span,
+.type-g-15 .pricing-head h4 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+.type-g-15 .pricing-head h3 {
+  font-weight: 300;
+  color: #fafafa;
+  padding: 12px 0;
+  font-size: 27px;
+  background: #36d7ac;
+  border-bottom: solid 1px #41b91c;
+}
+.type-g-15 .pricing-head h4 {
+  color: #bac39f;
+  padding: 5px 0;
+  font-size: 54px;
+  font-weight: 300;
+  background: #fbfef2;
+  border-bottom: solid 1px #f5f9e7;
+}
+.type-g-15 .pricing-head-active h4 {
+  color: #36d7ac;
+}
+.type-g-15 .pricing-head h4 i {
+  top: -8px;
+  font-size: 28px;
+  font-style: normal;
+  position: relative;
+}
+.type-g-15 .pricing-head h4 span {
+  top: -10px;
+  font-size: 14px;
+  font-style: normal;
+  position: relative;
+}
+.type-g-15 .pricing-content li {
+  color: #888;
+  font-size: 12px;
+  padding: 7px 15px;
+  border-bottom: solid 1px #f5f9e7;
+}
+.type-g-15 .pricing-footer {
+  color: #fff;
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+  padding: 0 20px 19px;
+}
+.type-g-15 .price-active,
+.type-g-15 .pricing:hover {
+  z-index: 9;
+}
+.type-g-15 .price-active h4 {
+  color: #36d7ac;
+}
+.type-g-15 .no-space-pricing .pricing:hover {
+  transition: box-shadow 0.2s ease-in-out;
+}
+.type-g-15 .no-space-pricing .price-active .pricing-head h4,
+.type-g-15 .no-space-pricing .pricing:hover .pricing-head h4 {
+  color: #36d7ac;
+  padding: 15px 0;
+  font-size: 80px;
+  transition: color 0.5s ease-in-out;
+}
+.type-g-15 .yellow-crusta.btn {
+  color: #fff;
+  background-color: #f3c200;
+}
+.type-g-15 .yellow-crusta.btn:hover,
+.type-g-15 .yellow-crusta.btn:focus,
+.type-g-15 .yellow-crusta.btn:active,
+.type-g-15 .yellow-crusta.btn.active {
+  color: #fff;
+  background-color: #cfa500;
+}
