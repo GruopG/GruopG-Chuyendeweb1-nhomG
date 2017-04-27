@@ -1,0 +1,127 @@
+.type-g-3 .title {
+  height: 370px;
+}
+.type-g-3 .banners_1 a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+.type-g-3 .banners_1 .wrap_1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.type-g-3 .banners_1 .wrap_2 {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.type-g-3 .banners_1 .wrap_3 {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px;
+  text-align: center;
+}
+.type-g-3 .banners_1 .banner_1 h3 {
+  margin: 16px 0 0 0;
+  font-size: 33px;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: none;
+  text-shadow: 1px 1px 1px rgba(19,25,48,0.4);
+}
+.type-g-3 .banners_1 .banner_1 p {
+  margin: 4px 0 0 0;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(19,25,48,0.4);
+}
+.type-g-3 .banners_1 .banner_1 .btn {
+  margin: 17px 0 0 0;
+}
+@media (max-width: 1700px) {
+  .type-g-3 .color_scheme .homepage_btn {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+.type-g-3 .banners_1 .banner_2 h3 {
+  margin: 50px 0 0 0;
+  font-weight: bold;
+  font-size: 41px;
+  line-height: 1em;
+  color: #131930;
+  text-transform: none;
+}
+.type-g-3 .banners_1 .banner_2 .wrap_3 {
+  vertical-align: top;
+}
+.type-g-3 .banners_1 .banner_2 h3 span {
+  font-weight: inherit;
+  color: #4d7df0;
+}
+.type-g-3 .banners_1 .banner_2 p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1em;
+  color: #131930;
+}
+.type-g-3 .banners_1 .banner_3 .text_1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font: bold 82px/1em Montserrat;
+}
+.type-g-3 .banners_1 .banner_3 .text_2 {
+  margin: 2px 0 0 0;
+  font-size: 18px;
+  line-height: 1em;
+}
+.type-g-3 .banners_1 .banner_3 .text_3 {
+  margin: 7px 0 0 0;
+  font: bold 32px/1em Montserrat;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.type-g-3 .banners_1 .banner_3 .text_4 {
+  margin: 16px 0 0 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1em;
+}
+.type-g-3 .banners_1 .banner_3 .btn {
+  margin: 28px 0 0 0;
+  background: #131930 !important;
+  border-color: #131930 !important;
+}
+@media (max-width: 1700px) {
+  .type-g-3 .color_scheme .btn-primary {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}
+.type-g-3 .banners_1 .banner_3 a {
+  background: #4d7df0;
+  color: #fff;
+}
+@media (min-width: 1200px) {
+  .type-g-3 .container {
+    width: 1170px;
+  }
+}
+.type-g-3 .b1 {
+  background: #4d7df0 !important;
+}
+.type-g-3 .b1:hover {
+  background: #131930 !important;
+}
+.type-g-3 .b2:hover {
+  background: #fff !important;
+}
