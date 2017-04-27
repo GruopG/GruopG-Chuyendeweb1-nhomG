@@ -1,0 +1,41 @@
+.type-g-11 section {
+  padding: 100px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.type-g-11 .lead-big {
+  font-size: 28px;
+  line-height: 48px;
+  color: #999;
+}
+.type-g-11 .form-inline input,
+.type-g-11 .form-inline textarea,
+.type-g-11 .form-inline select {
+  max-width: 235px;
+  height: 40px;
+  overflow: hidden;
+  line-height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dotted;
+  vertical-align: text-bottom;
+  cursor: pointer;
+}
+.type-g-11 .form-inline .form-group label {
+  position: relative;
+}
+.type-g-11 .form-inline .form-group label > span {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  font-size: 12px;
+  color: #bdc3c7;
+  opacity: 1;
+}
+.type-g-11 .submit.btn.btn-lg {
+  font-size: 28px;
+  color: #999;
+  border: 1px dotted;
+  background-color: transparent;
+  border-radius: 0;
+}
