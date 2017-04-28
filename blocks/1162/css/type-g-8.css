@@ -1,0 +1,69 @@
+.type-g-8 {
+  background: #f5f5f5;
+}
+.type-g-8 .form-group {
+  margin-bottom: 25px;
+}
+.type-g-8 .form-group input .form-group textarea {
+  padding: 20px;
+}
+.type-g-8 .form-group input.form-control {
+  height: auto;
+}
+.type-g-8 .form-group textarea.form-control {
+  height: 236px;
+}
+.type-g-8 .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+.type-g-8 .gellary_bg_none img {
+  width: 100%;
+  height: 250px;
+}
+.type-g-8 .text-danger {
+  color: #e74c3c;
+}
+.type-g-8 .about_our_company {
+  text-align: center;
+}
+.type-g-8 .about_our_company h1 {
+  font-size: 25px;
+}
+.type-g-8 .titleline-icon {
+  position: relative;
+  max-width: 100px;
+  border-top: 4px double #F99700;
+  margin: 20px auto 20px;
+}
+.type-g-8 .titleline-icon:after {
+  position: absolute;
+  top: -11px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: 'FontAwesome';
+  content: "\f141";
+  font-size: 20px;
+  line-height: 1;
+  color: #F99700;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  height: 20px;
+  background: #ffffff;
+}
+.type-g-8 .icon-maps {
+  text-align: center;
+}
+.type-g-8 .icon-maps .fa {
+  padding: 10px;
+}
+@media screen and (device-aspect-ratio: 0.66666666666667) {
+  .type-g-8 .icon-maps {
+    text-align: center;
+  }
+  .type-g-8 .icon-maps .fa {
+    padding: 10px;
+  }
+}

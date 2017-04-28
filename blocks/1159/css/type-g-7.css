@@ -1,0 +1,104 @@
+.type-g-7 .Boderfull {
+  border: 2px solid #e2eafd;
+  border-radius: 5px;
+  color: #003333;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+.type-g-7 .Boderfull p {
+  border-bottom: 2px solid #e2eafd;
+  margin-left: -15px;
+  margin-right: -15px;
+  color: #0066cc;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.type-g-7 .Boderfull .btnshopnow {
+  background: #4d7df0;
+  color: #fff;
+  margin-top: -25px;
+}
+.type-g-7 .Boderfull .btnshopnow:hover {
+  background: #131930;
+  color: #fff;
+  border-radius: 5px;
+}
+.type-g-7 .Boderfull .font-name h1 {
+  font-size: 15px;
+  color: #0066cc;
+}
+.type-g-7 .Boderfull .font-name h2 {
+  font-size: 20px;
+  color: #003333;
+}
+.type-g-7 .Boderfull .font-name h3 {
+  font-size: 18px;
+  color: #99ccff;
+  font-family: 'Montserrat', Thin;
+}
+.type-g-7 .Boderfull .font-name h4 {
+  font-size: 12px;
+}
+.type-g-7 .Boderfull .font-name .fa-clock-o {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #4d7df0;
+}
+.type-g-7 .Boderfull .boder1 {
+  margin-bottom: -20px;
+}
+.type-g-7 .Boderfull .boder1 img {
+  margin-top: 24px;
+}
+.type-g-7 .Boderfull .boder2 {
+  border-left: 1px solid #e2eafd;
+  border-right: 1px solid #e2eafd;
+}
+.type-g-7 .Boderfull .boder2 img {
+  margin-top: 24px;
+}
+.type-g-7 .Boderfull .boder3 img {
+  margin-top: 24px;
+}
+@media screen and (max-width: 979px) {
+  .type-g-7 .Boderfull {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .type-g-7 .Boderfull .boder1 {
+    border-bottom: 1px solid #e2eafd;
+    margin-left: -15px;
+    margin-right: -15px;
+    float: left;
+  }
+  .type-g-7 .Boderfull .boder1 img {
+    margin-top: 24px;
+    margin-left: -50px;
+  }
+  .type-g-7 .Boderfull .boder2 {
+    border: none;
+  }
+  .type-g-7 .Boderfull .boder2 img {
+    margin-top: 24px;
+    margin-left: -80px;
+  }
+  .type-g-7 .Boderfull .boder3 {
+    border-top: 1px solid #e2eafd;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .type-g-7 .Boderfull .boder3 img {
+    margin-left: -50px;
+  }
+  .type-g-7 .Boderfull .font-name h2 {
+    font-size: 15px;
+    margin-left: -50px;
+  }
+  .type-g-7 .Boderfull .font-name .fa-clock-o {
+    margin-left: -70px;
+  }
+  .type-g-7 .Boderfull .btnshopnow {
+    margin-right: -95px;
+  }
+}
